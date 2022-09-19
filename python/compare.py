@@ -1,15 +1,24 @@
+'''
+Author: 王政乔 me@zhengqiao.wang
+Date: 2022-09-19 17:47:31
+LastEditors: 王政乔 me@zhengqiao.wang
+LastEditTime: 2022-09-19 19:07:45
+FilePath: /codesnippet/python/compare.py
+Description: 对比
+Website: https://www.zhengqiao.wang
+'''
 
 def compareDict(left_dict: dict, right_dict: dict):
-    """compare two dict, will return three list in a tuple.
+    """compare two dicts, will return three lists in a tuple.
 
     Args:
         left_dict (dict): left dict which will be compared
         right_dict (dict): right dict with will be compared
 
     Returns:
-        list: returns keys in left dict which not exists in the right dict
-        list: returns keys in right dict which not exists in the left dict
-        list: returns [key, left_item, right_item] lists which contains the key and both different items in one list.
+        list: returns keys in left dict which not exist in the right dict
+        list: returns keys in right dict which not exist in the left dict
+        list: returns [key, left_item, right_item] list which contains the key and both different items.
     """
     only_left_exists = []
     only_right_exists = []
@@ -33,16 +42,3 @@ def compareDict(left_dict: dict, right_dict: dict):
             continue
 
     return only_left_exists, only_right_exists, differents
-
-
-left_dict = {
-    1: "abc",
-    2: "cde",
-    3: "efg"
-}
-right_dict = {
-    1: "cde",
-    4: "abc",
-    3: "efg"
-}
-print(compareDict(left_dict, right_dict))
