@@ -2,7 +2,7 @@
  * @Author: 王政乔 me@zhengqiao.wang
  * @Date: 2022-09-19 19:08:39
  * @LastEditors: 王政乔 me@zhengqiao.wang
- * @LastEditTime: 2022-09-19 19:11:06
+ * @LastEditTime: 2022-09-20 08:30:30
  * @FilePath: /codesnippet/python/README.md
  * @Description: 
  * Website: https://www.zhengqiao.wang
@@ -19,3 +19,6 @@
 ## 目录
 
 - [对比代码compare.py](compare.py) | [ut](test_compare.py)
+    - compareDict: 字典对比，得到两个字典的不同（存在于不存在、不同之处的对比）
+- [洗牌代码shuffle.py](shuffle.py) | [ut](test_shuffle.py)
+    - randomShuffleWithScore: 根据分值权重随机洗牌
