@@ -4,7 +4,7 @@ Date: 2022-09-30 19:29:23
 LastEditors: 王政乔 me@zhengqiao.wang
 LastEditTime: 2022-09-30 19:49:53
 FilePath: /codesnippet/python/excel_oper.py
-Description: Excel操作，可以用于简单的Excel读取，方便广大办公人员实现自动化办公
+Description: Excel操作，可以用于简单的Excel读取，方便广大办公人员实现自动化办公，使用讲解：https://www.zhengqiao.wang/office_automation/自动化办公Excel数据读取.html
 Website: https://www.zhengqiao.wang
 '''
 
